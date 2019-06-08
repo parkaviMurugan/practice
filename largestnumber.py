@@ -1,7 +1,7 @@
 n=int(input())
 l=[]
 for i in range(n):
-  l.append(int(input()))
+  l.append(input())
 l.sort(reverse=True)
 if l[0]==0:
   print("0")

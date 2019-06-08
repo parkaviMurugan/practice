@@ -9,4 +9,4 @@ else:
   new=""
   for i in l:
     new+=str(i)
-    print(new,end=" ")
+  print(new,end=" ")

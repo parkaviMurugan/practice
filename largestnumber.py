@@ -1,11 +1,9 @@
 n=int(input())
 l=[]
-r=n
 for i in range(n):
-  l.append(r)
-  r+=1
-l.reverse()
-new=''
+  l.append(int(input()))
+l.sort(reverse=True)
+new=""
 for i in l:
   new+=str(i)
 print(new,end=" ")

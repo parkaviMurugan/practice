@@ -6,5 +6,4 @@ for i in range(x):
   l.append(int(input()))
 
 l.sort(reverse=False)
-print(l)
 print(l[y-1])

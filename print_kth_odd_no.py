@@ -8,4 +8,4 @@ r=[]
 for i in l:
   if i%2!=0:
     r.append(i)
-print(r[y])
+print(r[y-1])

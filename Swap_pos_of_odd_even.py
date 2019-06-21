@@ -1,7 +1,5 @@
 i=input()
 l=list(i)
-e=[]
-o=[]
 r=[]
 x=''
 for s in range(0,len(l)-1,2):

@@ -1,4 +1,7 @@
-i=input()
+st=int(input())
+i=''
+for it in range(st):
+  i+=input()
 l=list(i)
 n=""
 s=['a','e','i','o','u','A','I','O','U','E']

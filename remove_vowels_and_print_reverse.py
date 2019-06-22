@@ -1,8 +1,8 @@
 st=int(input())
-i=''
+inp=''
 for it in range(st):
-  i+=input()
-l=list(i)
+  inp+=input()
+l=list(inp)
 n=""
 s=['a','e','i','o','u','A','I','O','U','E']
 for i in l:

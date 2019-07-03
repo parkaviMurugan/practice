@@ -3,10 +3,12 @@ x=int(x)
 y=int(y)
 l=[]
 k=[]
-for i in range(x):
-  l.append(int(input()))
-for i in range(y):
-  k.append(int(input()))
+r=input()
+l=r.split()
+l=[int(x) for x in l]
+m=input()
+k=m.split()
+k=[int(x) for x in k]
 for i in k:
   l.append(i)
   print(max(l),end=" ")

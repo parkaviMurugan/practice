@@ -1,4 +1,6 @@
-word =input().split()
+r=input()
+r=r.replace('.','')
+word =r.split()
 l=[]
 for i in range(len(word)):
   if(i%2==0):

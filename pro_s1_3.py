@@ -8,7 +8,10 @@ if xl<=yl:
 else:
   s=y
   l=x
-for i in range(len(s)):
-  if s[i]!=l[i]:
-    m+=1
-print(m)
+if len(s)==1:
+  print(m)
+else:
+  for i in range(len(s)):
+    if s[i]!=l[i]:
+      m+=1
+  print(m)
